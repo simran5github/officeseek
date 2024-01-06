@@ -1,0 +1,475 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>OfficeSeek</title>
+
+        <!-- For favicon png -->
+		<!-- <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/> -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/flaticon.jpg"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+		<!--flaticon.css-->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--slick.css-->
+        <link rel="stylesheet" href="assets/css/slick.css">
+		<link rel="stylesheet" href="assets/css/slick-theme.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!--header-top start -->
+		<header id="header-top" class="header-top">
+			<ul>
+				
+			</ul>
+					
+		</header><!--/.header-top-->
+		<!--header-top end -->
+
+		<!-- top-area Start -->
+		<section class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Office<span>Seek</span></a>
+
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                    <li class=" scroll active"><a href="#home">home</a></li>
+			                    <li class="scroll"><a href="#works">how it works</a></li>
+			                    <!-- <li class="scroll"><a href="#explore">explore</a></li>
+			                    <li class="scroll"><a href="#reviews">review</a></li> -->
+			                    <li class="scroll"><a href="#blog">blog</a></li>
+			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		    <div class="clearfix"></div>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>Welcome to OfficeSeek</h2>
+					<p>
+						your go-to destination for hassle-free postal information! 
+					</p>
+				</div>
+				<div class="welcome-hero-serch-box">
+					<div class="welcome-hero-form">
+						<div class="single-welcome-hero-form" style="width:100%;">
+							<h3>Pin Code</h3>
+							<input type="text" id="searchbar" name="search" placeholder="Enter PIN Code" style="color: green;">
+						</div>
+					</div> 
+					<div class="welcome-hero-serch">
+						<!-- <button class="welcome-hero-btn" onclick="window.location.href='#'"> -->
+						<button class="welcome-hero-btn" id="srchbtn">
+							search  <i data-feather="search"></i> 
+						</button>
+					</div>
+				</div>
+
+				<!-- <input type="text" id="searchbar" name="search" placeholder="Enter PIN Code"> -->
+				<br><br>
+				<div id="container" style="
+				background-color: aliceblue;
+				width:70vw;
+				overflow-y:scroll;
+				overflow-x:scroll;
+				color: black;">
+					<div id="content1"></div>
+					<div id="content2"></div>
+					<div id="content3"></div>
+				</div>
+
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+
+		<!--works start -->
+		<br><br><br><br><br>
+		<section id="works" class="works">
+			<div class="container">
+				<div class="section-header">
+					<h2>how it works</h2>
+					<p>Learn More about how our website works</p>
+				</div><!--/.section-header-->
+				<div class="works-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-lightbulb-idea"></i> -->
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAsFJREFUSEvllknIT2EUxn9fZgsLG/OQyBhlYYEFCgkpmUohwxeSkiHDhg0LZIrILFJkgRIWWFE2KGQqkimRQpmH89S5X6/r3vve719/38LZ3fue9zxnfM5bQwNJTQPhUha4KTAI6AG0BV4Cj4DrwNdKnI8BdwE2AeOA5hkAn4DTwHLgWX0cKAJeCGwBFG1MvgDzgUMxxeQ8D1hRLnWl75be3cBl4D7wGOgG9AJGALVAI9ddY46uLwOeBbwA2OWXVcexwIMCY/2t/ueADq4zFTgRA08D9wZuAU08uqHAGzfS12vdAlBtzwJ3/awjcBXoBHwEelomXhSBp4EvmIFR3qm6/MQvbwBWZhhaC6zz/wOAG/Ytm0esJDPLArcG3rryVmBJcHGjRbIsx5BqvNfPjgPTgPeA7P3IAw8jngScdMXBwLXUpdWe2iveVDuA9p72rsBrYHJQ3ywbdSZD4MXANj9pZV39IdIgw4FLrjMBOGPjJAfU9ZJZwOEyEa8KRqFxUZrcmOZbWZCoN5ShZtYLn/3fCkAlypQwYtVqj2u1M0J4FYk461ipf+4HU4LS/aUbAo8ELrrGGOB8BcDjPeW62s9qfqdMxC2Bd06R+8zzeRUAHwWmA7+c23MXSHqOTwETgZ/WnX2cRMria45vuvJ+Wxpziy6mgcXBSo82kehyiI9JDLyzM5doU1yg9ans5UoWV88BlGrJU+vW0UYK9wpsDHSubuM6O41mF8U8zdtOIUVqO2lpiDiS7SQ6VSmGeUrTduT8gfpGnOhrS20HNNMx+eYPArFfIoXgsReIar4Z0HiJHNIiLj5oP7UsNL+zbUOpsaLgMeDEgED15uruby5trYfA7YCpEt00uL7l3B9SFjiW6vS5wNSgsq/RnGGdfixUqhawMEJwdbm6vU6qCSwQsZ9mWgvjn6Q6WppqR5zrwP8H/BsS330f5DsGoAAAAABJRU5ErkJggg=="/>
+								</div>
+								<h2><a href="#">Pin <span> Code</span> lookup</a></h2>
+								<p>
+									Simply enter the pin code you're interested in, and let OfficeSeek do the rest. Our platform will provide you with a detailed list of all post offices associated with that pin code, including Name, BranchType, DeliveryStatus, District, Division, Region, Block, State and Country. 
+								</p>
+								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-networking"></i> -->
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAfJJREFUSEvN1kuoTlEUwPHfjZIyUCTlMaFISR4JecQdKkZGZswpE0rGzAzMlYmBoZgIEUJcCYWBt0wkE5GBx7d03G6nvc/Zx3fqsyanznr899p7r7X2mBHJ2Ii4/nvwCszL7M4nPO66c00ZT8deHMHylsCXcRxXSxeQA89EBNtUGqiyC/hR/Grzy4EvYGebc0Z/GvvbfFPgPTjX5tii343zTTYp8H2sHRJ8Bxu7gBfhbcbhNd7UdEuwMGMfVfAxB69nvAG3E8YvsBLfarr5eII5CZ91mCgFb8X1hPE9rE/8n4uniG9dDgwWdKoUvANXMsaP8LmmW4XZDWcZGX/BTRybWmb1rR6v6nfIu5V0jwv74K+mDs5tdR8L2VJl/idWHbwN1/qgJGI0grd36bcdF/jP4KjhqOUmWYClGYPNuJU741zG77EMX1vAs/AqU17RI+7mwLGqG4ngMW9XD0riRwt4Gp4jOlpdwv9hDhxZPcsEjw4VQ79JoqajtlOyeDC13uXAccs/IFphn/KyOvvJOZ2aTodxok8qDuHk1JgpcDx54hKs6Ql+cdCxduFnGzj0sdWXqok0DP/sYMzuw/d6kKbH3gzEhDmIqM9SiczivRbQMzmnknd1lEi8JuIISiRm9+TtHQZcAutsU5Jx56AlDiMD/waNiE0fmS5OEgAAAABJRU5ErkJggg=="/>
+								</div>
+								<h2><a href="#">Blog <span> Section</span></a></h2>
+								<p>
+									Explore our Blog Section for in-depth articles, tips, and insights into post offices and pin codes. Whether you're curious about the history of postal services or want to stay updated on the latest changes, our blog is a valuable resource for postal enthusiasts. 
+								</p>
+								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-location-on-road"></i> -->
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAb5JREFUSEvtlj0vBFEUhp/1Eb0QEpFoJWqlr6CW+AMKDSUVia9odBoRFSohxF9Ai0QhopCI+AUa8dEwr9wrkxtz58xm1yqcZLI7d849zznvOXt3StTISjXi8g/+NeWzpO4ENoERoKkC2TwAq8C2j5UFPgP6KgAMQ/QCF1rMAr8DjW7XDXBUZhKtwFSKMwesxcAfAUgSTQNvBRLoB/aB9tSeleT7chGwfK+Taxy4y4FLxfmkSkHqA18zeAvoBpS97BmYiEjfnPgfAMPO/8UptePuzWDJomlcBBaAOhdgA5hNKtMseNPgHAMdbuHWKaRP3zoz+NvRVX0IaGBkV8AY8OiS0NA0uGd7wCSgimVm8KnbsAvo8tYGKOiQW3gCzoFRd/8aSOv3mcGx+ZHcofTyT0sb7o+C1c+lGBEYBLwaGjgvfShtVcEK3pK0ogu4zEk4WvFAUo2umKnfOneLmrnHsQQELgo3g8MjM11h+idmrfzvg61S+wnPq9wfuTPAupwt71yaWp3PaVOPNWixloTJ6BTrAe6tYFV/EkTRi4LWrRULpkr1D/dllopj4DyJM59bwGUHj238B1dF1p+C1kzqT0UcaR+GcYIeAAAAAElFTkSuQmCC"/>
+								</div>
+								<h2><a href="#">Contact <span> Us</span></a></h2>
+								<p>
+									We value your feedback and suggestions. If you have any ideas for improving our website or if you come across any mistakes, don't hesitate to reach out. Our Contact Us section is your direct line to our team. We welcome your thoughts on how we can enhance your experience on OfficeSeek. 
+								</p>
+								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-lightbulb-idea"></i> -->
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAXdJREFUSEvtlrtKBDEUhr8VvBSWKuILaCVWwlYWWthYCFYiWGzlIyiCNwRfQNDWSrCxsBPBQgQ7tRD0DVb2AdRCzZFEMnEyTCa7MxabZi/knO/8f87JTI2KVq0iLi54ElgAeiMK+gAugMesHDa4DtxGAN3QKeDBl88Gbyil+20ErwMHecDbwJbeGHP2XzrHjvqUnKnLBnTBRY+7a7U4Z2Z7GXiTP8pqLmP/KnBSBfh3xMpW/P/BDeAQ6C8wW3IL7uq4PyPms3oQOAJWCgBNyBxwFQp+BsZ10CtwDHwGFHEPnOv9fcC7e3/7FBvGjXq0LQKtAKi7VZRf5gWLOjmfvUClNnQAmNc9MpYH3ASWAFFrLykm5nEpubzjNJth7R0wHWG5FzwBvGRYOwKs5VDdo/cNpRSZqjhSTCJ8FDgFZpykHQcLT5TLJbKpv3utbqdiO5eoPlPdPexrrk6BJa+x/lr9+HkBjB2PkGLFemngp7LBiSLLVJwAfwPy4GMf57gnQAAAAABJRU5ErkJggg=="/>
+								</div>
+								<h2><a href="#">Discuss <span> Improvements</span></a></h2>
+								<p>
+									Your experience matters to us. Share your thoughts on how we can make OfficeSeek even more user-friendly and informative. We're committed to continuous improvement and value the insights our users provide. 
+								</p>
+								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-lightbulb-idea"></i> -->
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA0VJREFUSEvFllmojVEUx38XUURCyZAoc5QHM6GQSKYi4sqDITKVOcmQmWR4MJZIQhlKhkJJZE6ZZZ4JSZKQYf9v6zvt+9nnfN85L3e9nPPtvfb677X2fw1FlJEUlREu+QKXBzoCDYE6duk3wFPgCvA7rSNpgZsA84DBQPUsxj8Bh4EVwJOkCyQBVwZWApMAeZtGfgJrgCWA/gclF7DCeRRoZSdl5KAL9UngJvAIqGBhbwP0detDbE1HFPoBwPsQcjbgFsB5oIYdOmFeP0twuTGwBehpeq+NE6/i50LAtYHrQD1TXux+F6WJsenI5mpgpn3fA9oB33wbIeD9wDBTWmhvlQduRnU9MM2+NgDTcwG3tveTzjGgfyGIdkZkPAd0Bn4ZF5R6JRL3eJdLhdEWlqZARrHACzQDbhvhlrsLzA8BVwQ+AlWBzUamSG88MNwx97Llc+geSrv2wF5gh6eg3B4EiJiNQsBi4mnb6AeIyRIx/K5naAKwLYasi2311hSth/Y91hF1u/3PrPuhHgPsNAUxOgpzB+CSZ3SOsdbHng2s8hbaWmZoSTl+w/aU16oNpd54lmewUqzqyJtxwFlnZCDwNeZxFQdwBOhm3k329lViP9u3mC2GlwKeAaw1hWoB4wXyC9n6YoeFsS4OPMKIofXmwINCkWLnWgJ3bE0EVZ0o5bHa3UVT0CX25QBWHe9t+6eMsdnUi4HdtqkKdi0OLKJ9AGoCewAdiEtdI9Go2Ib0RbpQ3h9wHg8F3rls0Pm/cWB9i0RKje+Akv+lB9DAeXnB5Wj9LK6pEXQBXnj7sqFOphqxCZga7cUrlxRV1LWuEPaJbmg5HnWdbGE947paL9tUyVQWdAX+uCiqc2lSKZFQk1DYRtr+UjfOLLD/PVKSTWCSjcAU+6+Co8KTkRBwLeCqFXUpapJQl0or5Sxlos503xpFlMtZPdaGZixVK38QmAg8T0BXeVWd7256Ipve/b8BIp/R5wdwyDWC48AtG31EGhV+pYneX6NPNJspaqpyb0OXTRr2VAr1zmKjQphGNJupUy0rdNjzQVTJ5tp4qxIYEo23GgbVd5OeJO+BXlNlJ0A57Q/0j42QSptUkhTqVEYKUSoz4H8w15gfEIi4HAAAAABJRU5ErkJggg=="/>
+								</div>
+								<h2><a href="#">Report <span> Issues or</span> Complaints</a></h2>
+								<p>
+									If you encounter any issues while using our website or have specific concerns, let us know through the Contact Us section. We're here to address any problems promptly and ensure your experience on OfficeSeek is seamless. 
+								</p>
+								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+		
+		</section><!--/.works-->
+		<!--works end -->
+
+		<!-- statistics start -->
+		<section id="statistics"  class="statistics">
+			<div class="container">
+				<div class="statistics-counter"> 
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">19 </div> <span>K+</span>
+							</div><!--/.statistics-content-->
+							<h3>PIN Codes in India</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">154</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>Post Offices in India</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">800</div> <span>+</span>
+							</div><!--/.statistics-content-->
+							<h3>Districts in India</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">100</div> <span>+</span>
+							</div><!--/.statistics-content-->
+							<h3>Divisions in India</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+				</div><!--/.statistics-counter-->	
+			</div><!--/.container-->
+
+		</section><!--/.counter-->	
+		<!-- statistics end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog" >
+			<div class="container">
+				<div class="section-header">
+					<h2>news and articles</h2>
+					<p>Empower yourself with knowledge, stay connected, and let the stories of pin codes and post offices unfold before you.</p>
+					<p>Happy reading!</p>
+				</div><!--/.section-header-->
+				<div class="blog-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<!-- <img src="assets/images/blog/b1.jpg" alt="blog image"> -->
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfXcY8PrzCEWuqkdMj79-U3GGmr2TwCFDe_dyCc3zM0UgBEe-aWfK6y1IXhIPw3pSPol8&usqp=CAU" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="https://factly.in/decoding-the-pincode-postal-index-number/">Decoding the PINCODE (Postal Index Number)</a></h2>
+									<h4>posted <span>by</span> <a href="https://factly.in/">Factly</a> september 2015</h4>
+									<p>
+										What does the PINCODE (Postal Index Number) mean? Why do the Postal Department & Courier firms ask you to write the PINCODE of the addressee? Why is it so important?
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<!-- <img src="assets/images/blog/b2.jpg" alt="blog image"> -->
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0w8hw5mJDGEmuFDX7YCyfbTgTfSNDR4vAplBfd1e_NgWRQHwK10p8oZo0hgRLuvKjQZ8&usqp=CAU" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="https://economictimes.indiatimes.com/nation-world/here-is-how-your-pin-code-is-decided/here-is-the-procedure/slideshow/57889793.cms">How your PIN code is decided</a></h2>
+									<h4>posted <span>by</span> <a href="https://economictimes.indiatimes.com/">The Economic Times</a> january 2024</h4>
+									<p>
+										Even though letter-writing has become a thing of past, our online shopping habits keep the Pin code from becoming obsolete. Ever wondered how is the Pin code of a particular area decided?
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<!-- <img src="assets/images/blog/b3.jpg" alt="blog image"> -->
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_gENURdjSwl95mlhbMtPvuMBmgmySSvNvJQ&usqp=CAU" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="https://faq.usps.com/s/article/ZIP-Code-The-Basics">ZIP Code™ - The Basics</a></h2>
+									<h4>posted <span>by</span> <a href="https://www.usps.com/">United States Postal Services</a> september 2023</h4>
+									<p>
+										ZIP Codes™ are an integral part of making sure the mailpiece is processed quickly and efficiently. Not having a ZIP Code™ on your mail causes unnecessary delays because it will require manual handling.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+			
+		</section><!--/.blog-->
+		<!--blog end -->
+
+		<!--subscription strat -->
+		<section id="contact"  class="subscription">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<h2>
+						Contact Us
+					</h2>
+					<p>
+						We value your feedback and are here to assist you with any queries, concerns, or suggestions you may have. Please feel free to reach out to us via email at lunawork04@gmail.com for prompt assistance.
+					</p><br><br>
+					<h3>How to Reach Us:</h3>
+					<p><b>Email</b>: lunawork04@gmail.com</p><br><br>
+					<h3>Subject Line Tips:</h3>
+					<p>
+						1. For general inquiries, please use "General Inquiry - [Your Subject]."<br>
+						2. If you have a complaint, kindly use "Complaint - [Brief Description]."<br>
+						3. To share your ideas for improvement, use "Improvement Suggestion - [Your Ideas]."<br>
+					</p><br><br>
+					<h3>Response Time:</h3>
+					<p>We strive to respond to all emails within 24 hours. Your satisfaction is our priority, and we appreciate your patience.</p><br><br>
+					<h3>Your Feedback Matters:</h3>
+					<p>Your feedback helps us enhance our services. Whether it's a compliment, complaint, or suggestion for improvement, we want to hear from you. Your insights are crucial in making Officeseek better.</p>
+					<p>Thank you for choosing Officeseek!</p>
+				</div>
+				<!-- <div class="row">
+					<div class="col-sm-12">
+						<div class="subscription-input-group">
+							<form action="#">
+								<input type="email" class="subscription-input-form" placeholder="Enter your email here">
+								<button class="appsLand-btn subscribe-btn" onclick="window.location.href='#'">
+									creat account
+								</button>
+							</form>
+						</div>
+					</div>	
+				</div> -->
+			</div>
+
+		</section><!--/subscription-->	
+		<!--subscription end -->
+
+		<!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+			           	<div class="col-sm-3">
+			           		 <div class="navbar-header">
+				                <a class="navbar-brand" href="index.html">Office<span>Seek</span></a>
+				            </div><!--/.navbar-header-->
+			           	</div>
+			           	<div class="col-sm-9">
+			           		<ul class="footer-menu-item">
+			                    <li class="scroll"><a href="#works">how it works</a></li>
+			                    <!-- <li class="scroll"><a href="#explore">explore</a></li>
+			                    <li class="scroll"><a href="#reviews">review</a></li> -->
+			                    <li class="scroll"><a href="#blog">blog</a></li>
+			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                    <!-- <li class=" scroll"><a href="#contact">my account</a></li> -->
+			                </ul><!--/.nav -->
+			           	</div>
+		           </div>
+				</div>
+				<div class="hm-footer-copyright">
+					<div class="row">
+						<div class="col-sm-5">
+							<p>
+								&copy;copyright. Lunaworks-2023
+							</p><!--/p-->
+						</div>
+						<div class="col-sm-7">
+							<div class="footer-social">
+								<!-- <span><i class="fa fa-phone"> +1  (222) 777 8888</i></span>
+								<a href="#"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-google-plus"></i></a> -->
+							</div>
+						</div>
+					</div>
+					
+				</div><!--/.hm-footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		     
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/sim.js"></script>
+        
+    </body>
+	
+</html>
